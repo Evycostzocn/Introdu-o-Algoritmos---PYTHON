@@ -17,3 +17,12 @@ Desafio adicional
 
 Versão A: utilizando dois if separados.
 Versão B: utilizando um único if com operador lógico or."""
+
+
+idade = int(input("Idade: "))
+valor = float(input("Valor da compra: "))
+
+if idade >= 60 or valor > 200:
+    print("Cliente elegível para compra")
+else:
+    print("Cliente não elegível")
