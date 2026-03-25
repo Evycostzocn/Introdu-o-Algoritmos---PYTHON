@@ -20,16 +20,21 @@ Menor número: -2
 """
 
 num = int(input("digite um numero: "))
-menor = 0 
-menorNum = 0
-maior = 0
-maiorNum = 0
+
+if num == 0:
+    print("Nenhum valor foi informado")
+    exit()
+
+else:
+    menor = num
+    maior = num
 
 while num != 0:
-    if num < menor:
-        menor = menorNum
-    else:
-        maior = maiorNum
-    num = int(input("digite um numero: "))
-print(menorNum)
-print(maiorNum)
+    if num > maior:
+        maior = num
+    elif num < menor:
+        menor = num
+    num = int(input("digite um número: "))
+print(f"maior número: {maior}")
+print(f"menor número: {menor}")
+
