@@ -12,10 +12,9 @@ Digite um número: -2
 Digite um número: 0
 Soma dos valores: 9"""
 
-num = int(input("digite um número: "))
-soma = 0
+num = int(input("n: "))
 
-while num != 0:
-    soma += num
-    num = int(input("digite um número: "))
-print(soma)
+soma = 0
+count = 1
+
+while count <= 
