@@ -15,11 +15,9 @@ while n != 0:
 
 for i in range(1, len(listaNum)):
     if listaNum[i] > listaNum[i - 1]:
-        atual = listaNum[i]
-        maior = atual
+        atual += 1
     else:
         atual = 1
-        continue
 
     if atual > maior:
         maior = atual

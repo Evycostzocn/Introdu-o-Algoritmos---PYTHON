@@ -1,0 +1,8 @@
+Sensor: S01
+Quantidade: 2
+Maior temperatura: 26.0
+
+Sensor: S02
+Quantidade: 2
+Maior temperatura: 28.1
+
